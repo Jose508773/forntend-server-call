@@ -4,7 +4,7 @@ let showData = document.getElementById("data-container");
 
 
 async function getData() {
-    let response = await fetch("https://backend-server.vercel.app/api/online")
+    let response = await fetch("https://backend-server-ruddy-ten.vercel.app/api/online")
     let data = await response.json()
     showData.textContent = data.message
 
